@@ -34,7 +34,6 @@ import classes from './BurgerIngredient.css';
              default:
                  ingredient = null;
          }
-
          return ingredient;
      }
  }
