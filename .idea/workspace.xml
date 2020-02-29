@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81278ebd-db46-439f-9cb0-e8682cce3452" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/axios-orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -31,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/Video/Udemy/React.js/Bab 8 A Real App The burger Builder (Basic Version)/burger-basics--06-finished" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../TUgas/ENT/(1)SNMPN/snmpn" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -40,17 +49,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\PENS\Magang\react example\react-burger-builder\src\assets\images" />
-      <recent name="F:\PENS\Magang\react example\react-burger-builder\src\components\Burger\BurgerIngredient" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PENS\Magang\react example\react-burger-builder\src\components\UI\Spinner" />
       <recent name="F:\PENS\Magang\react example\react-burger-builder\src\hoc\Auxilliary" />
       <recent name="F:\PENS\Magang\react example\react-burger-builder\src\hoc" />
       <recent name="F:\PENS\Magang\react example\react-burger-builder\src\containers" />
       <recent name="F:\PENS\Magang\react example\react-burger-builder\src\components\Navigation\Toolbar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PENS\Magang\react example\react-burger-builder\src\assets\images" />
+      <recent name="F:\PENS\Magang\react example\react-burger-builder\src\components\Burger\BurgerIngredient" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -74,7 +85,14 @@
       <workItem from="1581731184212" duration="396000" />
       <workItem from="1581731635585" duration="3333000" />
       <workItem from="1581742252458" duration="14907000" />
-      <workItem from="1581777361388" duration="6957000" />
+      <workItem from="1581777361388" duration="8196000" />
+      <workItem from="1581823622926" duration="547000" />
+      <workItem from="1581995528262" duration="11364000" />
+      <workItem from="1582079823331" duration="862000" />
+      <workItem from="1582098050017" duration="20000" />
+      <workItem from="1582099230509" duration="623000" />
+      <workItem from="1582863852925" duration="1143000" />
+      <workItem from="1582944287031" duration="130000" />
     </task>
     <servers />
   </component>
@@ -94,10 +112,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="754" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581523664838" />
-    <state x="804" y="122" key="FileChooserDialogImpl" timestamp="1581782291153">
+    <state x="804" y="122" key="FileChooserDialogImpl" timestamp="1582099886758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="804" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581782291153" />
+    <state x="804" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582099886758" />
+    <state x="1379" y="6" key="SettingsEditor" timestamp="1581997251217">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1379" y="6" key="SettingsEditor/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1581997251217" />
     <state x="738" y="83" width="627" height="568" key="find.popup" timestamp="1581771268753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
